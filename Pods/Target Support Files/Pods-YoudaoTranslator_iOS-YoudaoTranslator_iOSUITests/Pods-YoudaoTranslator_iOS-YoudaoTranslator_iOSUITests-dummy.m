@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_YoudaoTranslator_iOS_YoudaoTranslator_iOSUITests : NSObject
+@end
+@implementation PodsDummy_Pods_YoudaoTranslator_iOS_YoudaoTranslator_iOSUITests
+@end

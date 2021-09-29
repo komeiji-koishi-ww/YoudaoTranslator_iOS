@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C14E281533D283A9AF4F6DD /* Pods_YoudaoTranslator_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7947FD99C1D6B99583DBB0DC /* Pods_YoudaoTranslator_iOSTests.framework */; };
+		488ECC2A270418EA00547E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488ECC29270418EA00547E9A /* AppDelegate.swift */; };
+		488ECC31270418EA00547E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488ECC2F270418EA00547E9A /* Main.storyboard */; };
+		488ECC33270418EB00547E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488ECC32270418EB00547E9A /* Assets.xcassets */; };
+		488ECC36270418EB00547E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488ECC34270418EB00547E9A /* LaunchScreen.storyboard */; };
+		488ECC41270418EB00547E9A /* YoudaoTranslator_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488ECC40270418EB00547E9A /* YoudaoTranslator_iOSTests.swift */; };
+		488ECC4C270418EB00547E9A /* YoudaoTranslator_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488ECC4B270418EB00547E9A /* YoudaoTranslator_iOSUITests.swift */; };
+		488ECC7827043BF800547E9A /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 488ECC7727043BF800547E9A /* BottomSheet */; };
+		488ECC7B27043C1B00547E9A /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 488ECC7A27043C1B00547E9A /* PartialSheet */; };
+		488ECC7E27043C4A00547E9A /* TextView in Frameworks */ = {isa = PBXBuildFile; productRef = 488ECC7D27043C4A00547E9A /* TextView */; };
+		488ECC8027043C6A00547E9A /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488ECC7F27043C6A00547E9A /* Translator.swift */; };
+		488ECC9527043C8D00547E9A /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 488ECC9427043C8D00547E9A /* File.txt */; };
+		488ECCBC27043EA900547E9A /* PostRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 488ECCAF27043EA900547E9A /* PostRequest.m */; };
+		488ECCBD27043EA900547E9A /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 488ECCB127043EA900547E9A /* BaseRequest.m */; };
+		488ECCBF27043EA900547E9A /* TranslateUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488ECCB527043EA900547E9A /* TranslateUI.swift */; };
+		488ECCC027043EA900547E9A /* LanguageSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488ECCB627043EA900547E9A /* LanguageSelector.swift */; };
+		488ECCC127043EA900547E9A /* LanguageSelectorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488ECCB727043EA900547E9A /* LanguageSelectorModel.swift */; };
+		488ECCC227043EA900547E9A /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 488ECCB827043EA900547E9A /* File.txt */; };
+		488ECCC327043EA900547E9A /* ConsoleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 488ECCBB27043EA900547E9A /* ConsoleLog.m */; };
+		5277DDADA13FB0451DBCF963 /* Pods_YoudaoTranslator_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27DF66F574A01021BCAF6A1 /* Pods_YoudaoTranslator_iOS.framework */; };
+		F75DB15075A4D3C224416EF3 /* Pods_YoudaoTranslator_iOS_YoudaoTranslator_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37ADB0F45974B1254B88ED5 /* Pods_YoudaoTranslator_iOS_YoudaoTranslator_iOSUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		488ECC3D270418EB00547E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488ECC1E270418EA00547E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488ECC25270418EA00547E9A;
+			remoteInfo = YoudaoTranslator_iOS;
+		};
+		488ECC48270418EB00547E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488ECC1E270418EA00547E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488ECC25270418EA00547E9A;
+			remoteInfo = YoudaoTranslator_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018A66B1410FF94D01F6EDB3 /* Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests/Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E1A9FA2D9BF16347AB0340C /* Pods-YoudaoTranslator_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoudaoTranslator_iOS.release.xcconfig"; path = "Target Support Files/Pods-YoudaoTranslator_iOS/Pods-YoudaoTranslator_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		488ECC26270418EA00547E9A /* YoudaoTranslator_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoudaoTranslator_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		488ECC29270418EA00547E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		488ECC30270418EA00547E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		488ECC32270418EB00547E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		488ECC35270418EB00547E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		488ECC37270418EB00547E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488ECC3C270418EB00547E9A /* YoudaoTranslator_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoudaoTranslator_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		488ECC40270418EB00547E9A /* YoudaoTranslator_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoudaoTranslator_iOSTests.swift; sourceTree = "<group>"; };
+		488ECC42270418EB00547E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488ECC47270418EB00547E9A /* YoudaoTranslator_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoudaoTranslator_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		488ECC4B270418EB00547E9A /* YoudaoTranslator_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoudaoTranslator_iOSUITests.swift; sourceTree = "<group>"; };
+		488ECC4D270418EB00547E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488ECC7F27043C6A00547E9A /* Translator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Translator.swift; path = ../../YoudaoTranslator/YoudaoTranslator/Translator.swift; sourceTree = "<group>"; };
+		488ECC9427043C8D00547E9A /* File.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		488ECC9627043D6B00547E9A /* YoudaoTranslator_iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YoudaoTranslator_iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		488ECCAF27043EA900547E9A /* PostRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostRequest.m; sourceTree = "<group>"; };
+		488ECCB027043EA900547E9A /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		488ECCB127043EA900547E9A /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		488ECCB227043EA900547E9A /* PostRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostRequest.h; sourceTree = "<group>"; };
+		488ECCB527043EA900547E9A /* TranslateUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslateUI.swift; sourceTree = "<group>"; };
+		488ECCB627043EA900547E9A /* LanguageSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSelector.swift; sourceTree = "<group>"; };
+		488ECCB727043EA900547E9A /* LanguageSelectorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSelectorModel.swift; sourceTree = "<group>"; };
+		488ECCB827043EA900547E9A /* File.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		488ECCBA27043EA900547E9A /* ConsoleLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleLog.h; sourceTree = "<group>"; };
+		488ECCBB27043EA900547E9A /* ConsoleLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleLog.m; sourceTree = "<group>"; };
+		7947FD99C1D6B99583DBB0DC /* Pods_YoudaoTranslator_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoudaoTranslator_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A4D5FC806F865B6368DAFB /* Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests/Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90614DC99AF759711E44520E /* Pods-YoudaoTranslator_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoudaoTranslator_iOS.debug.xcconfig"; path = "Target Support Files/Pods-YoudaoTranslator_iOS/Pods-YoudaoTranslator_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A1B52CED2F82959D6140495D /* Pods-YoudaoTranslator_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoudaoTranslator_iOSTests.release.xcconfig"; path = "Target Support Files/Pods-YoudaoTranslator_iOSTests/Pods-YoudaoTranslator_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E37ADB0F45974B1254B88ED5 /* Pods_YoudaoTranslator_iOS_YoudaoTranslator_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoudaoTranslator_iOS_YoudaoTranslator_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB41F50E319AF8A61E3CD3C7 /* Pods-YoudaoTranslator_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoudaoTranslator_iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-YoudaoTranslator_iOSTests/Pods-YoudaoTranslator_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F27DF66F574A01021BCAF6A1 /* Pods_YoudaoTranslator_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoudaoTranslator_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		488ECC23270418EA00547E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488ECC7E27043C4A00547E9A /* TextView in Frameworks */,
+				488ECC7B27043C1B00547E9A /* PartialSheet in Frameworks */,
+				5277DDADA13FB0451DBCF963 /* Pods_YoudaoTranslator_iOS.framework in Frameworks */,
+				488ECC7827043BF800547E9A /* BottomSheet in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488ECC39270418EB00547E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C14E281533D283A9AF4F6DD /* Pods_YoudaoTranslator_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488ECC44270418EB00547E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75DB15075A4D3C224416EF3 /* Pods_YoudaoTranslator_iOS_YoudaoTranslator_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		488ECC1D270418EA00547E9A = {
+			isa = PBXGroup;
+			children = (
+				488ECC28270418EA00547E9A /* YoudaoTranslator_iOS */,
+				488ECC3F270418EB00547E9A /* YoudaoTranslator_iOSTests */,
+				488ECC4A270418EB00547E9A /* YoudaoTranslator_iOSUITests */,
+				488ECC27270418EA00547E9A /* Products */,
+				C017EE4D4596952DC04056F8 /* Pods */,
+				B8236CFF16F87616FDCE3BB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		488ECC27270418EA00547E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				488ECC26270418EA00547E9A /* YoudaoTranslator_iOS.app */,
+				488ECC3C270418EB00547E9A /* YoudaoTranslator_iOSTests.xctest */,
+				488ECC47270418EB00547E9A /* YoudaoTranslator_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		488ECC28270418EA00547E9A /* YoudaoTranslator_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				488ECC29270418EA00547E9A /* AppDelegate.swift */,
+				488ECCB827043EA900547E9A /* File.txt */,
+				488ECCAE27043EA900547E9A /* Request */,
+				488ECCB927043EA900547E9A /* Tools */,
+				488ECCB427043EA900547E9A /* UI */,
+				488ECC7F27043C6A00547E9A /* Translator.swift */,
+				488ECC2F270418EA00547E9A /* Main.storyboard */,
+				488ECC32270418EB00547E9A /* Assets.xcassets */,
+				488ECC34270418EB00547E9A /* LaunchScreen.storyboard */,
+				488ECC37270418EB00547E9A /* Info.plist */,
+				488ECC9427043C8D00547E9A /* File.txt */,
+				488ECC9627043D6B00547E9A /* YoudaoTranslator_iOS-Bridging-Header.h */,
+			);
+			path = YoudaoTranslator_iOS;
+			sourceTree = "<group>";
+		};
+		488ECC3F270418EB00547E9A /* YoudaoTranslator_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				488ECC40270418EB00547E9A /* YoudaoTranslator_iOSTests.swift */,
+				488ECC42270418EB00547E9A /* Info.plist */,
+			);
+			path = YoudaoTranslator_iOSTests;
+			sourceTree = "<group>";
+		};
+		488ECC4A270418EB00547E9A /* YoudaoTranslator_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				488ECC4B270418EB00547E9A /* YoudaoTranslator_iOSUITests.swift */,
+				488ECC4D270418EB00547E9A /* Info.plist */,
+			);
+			path = YoudaoTranslator_iOSUITests;
+			sourceTree = "<group>";
+		};
+		488ECCAE27043EA900547E9A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				488ECCAF27043EA900547E9A /* PostRequest.m */,
+				488ECCB027043EA900547E9A /* BaseRequest.h */,
+				488ECCB127043EA900547E9A /* BaseRequest.m */,
+				488ECCB227043EA900547E9A /* PostRequest.h */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		488ECCB427043EA900547E9A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				488ECCB527043EA900547E9A /* TranslateUI.swift */,
+				488ECCB627043EA900547E9A /* LanguageSelector.swift */,
+				488ECCB727043EA900547E9A /* LanguageSelectorModel.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		488ECCB927043EA900547E9A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				488ECCBA27043EA900547E9A /* ConsoleLog.h */,
+				488ECCBB27043EA900547E9A /* ConsoleLog.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B8236CFF16F87616FDCE3BB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27DF66F574A01021BCAF6A1 /* Pods_YoudaoTranslator_iOS.framework */,
+				E37ADB0F45974B1254B88ED5 /* Pods_YoudaoTranslator_iOS_YoudaoTranslator_iOSUITests.framework */,
+				7947FD99C1D6B99583DBB0DC /* Pods_YoudaoTranslator_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C017EE4D4596952DC04056F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90614DC99AF759711E44520E /* Pods-YoudaoTranslator_iOS.debug.xcconfig */,
+				2E1A9FA2D9BF16347AB0340C /* Pods-YoudaoTranslator_iOS.release.xcconfig */,
+				85A4D5FC806F865B6368DAFB /* Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests.debug.xcconfig */,
+				018A66B1410FF94D01F6EDB3 /* Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests.release.xcconfig */,
+				EB41F50E319AF8A61E3CD3C7 /* Pods-YoudaoTranslator_iOSTests.debug.xcconfig */,
+				A1B52CED2F82959D6140495D /* Pods-YoudaoTranslator_iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		488ECC25270418EA00547E9A /* YoudaoTranslator_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488ECC50270418EB00547E9A /* Build configuration list for PBXNativeTarget "YoudaoTranslator_iOS" */;
+			buildPhases = (
+				E74BA28B633D150CFF1BE21C /* [CP] Check Pods Manifest.lock */,
+				488ECC22270418EA00547E9A /* Sources */,
+				488ECC23270418EA00547E9A /* Frameworks */,
+				488ECC24270418EA00547E9A /* Resources */,
+				927DB93D9651CF73E302E472 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoudaoTranslator_iOS;
+			packageProductDependencies = (
+				488ECC7727043BF800547E9A /* BottomSheet */,
+				488ECC7A27043C1B00547E9A /* PartialSheet */,
+				488ECC7D27043C4A00547E9A /* TextView */,
+			);
+			productName = YoudaoTranslator_iOS;
+			productReference = 488ECC26270418EA00547E9A /* YoudaoTranslator_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		488ECC3B270418EB00547E9A /* YoudaoTranslator_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488ECC53270418EB00547E9A /* Build configuration list for PBXNativeTarget "YoudaoTranslator_iOSTests" */;
+			buildPhases = (
+				59A19883A4C0BEFD1F4ABA8C /* [CP] Check Pods Manifest.lock */,
+				488ECC38270418EB00547E9A /* Sources */,
+				488ECC39270418EB00547E9A /* Frameworks */,
+				488ECC3A270418EB00547E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488ECC3E270418EB00547E9A /* PBXTargetDependency */,
+			);
+			name = YoudaoTranslator_iOSTests;
+			productName = YoudaoTranslator_iOSTests;
+			productReference = 488ECC3C270418EB00547E9A /* YoudaoTranslator_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		488ECC46270418EB00547E9A /* YoudaoTranslator_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488ECC56270418EB00547E9A /* Build configuration list for PBXNativeTarget "YoudaoTranslator_iOSUITests" */;
+			buildPhases = (
+				E0ECB851B164A1536F1D1686 /* [CP] Check Pods Manifest.lock */,
+				488ECC43270418EB00547E9A /* Sources */,
+				488ECC44270418EB00547E9A /* Frameworks */,
+				488ECC45270418EB00547E9A /* Resources */,
+				1814167EFF864D78FF40CD95 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488ECC49270418EB00547E9A /* PBXTargetDependency */,
+			);
+			name = YoudaoTranslator_iOSUITests;
+			productName = YoudaoTranslator_iOSUITests;
+			productReference = 488ECC47270418EB00547E9A /* YoudaoTranslator_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		488ECC1E270418EA00547E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					488ECC25270418EA00547E9A = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+					488ECC3B270418EB00547E9A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 488ECC25270418EA00547E9A;
+					};
+					488ECC46270418EB00547E9A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 488ECC25270418EA00547E9A;
+					};
+				};
+			};
+			buildConfigurationList = 488ECC21270418EA00547E9A /* Build configuration list for PBXProject "YoudaoTranslator_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 488ECC1D270418EA00547E9A;
+			packageReferences = (
+				488ECC7627043BF800547E9A /* XCRemoteSwiftPackageReference "bottom-sheet" */,
+				488ECC7927043C1B00547E9A /* XCRemoteSwiftPackageReference "PartialSheet" */,
+				488ECC7C27043C4A00547E9A /* XCRemoteSwiftPackageReference "TextView" */,
+			);
+			productRefGroup = 488ECC27270418EA00547E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				488ECC25270418EA00547E9A /* YoudaoTranslator_iOS */,
+				488ECC3B270418EB00547E9A /* YoudaoTranslator_iOSTests */,
+				488ECC46270418EB00547E9A /* YoudaoTranslator_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		488ECC24270418EA00547E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488ECCC227043EA900547E9A /* File.txt in Resources */,
+				488ECC36270418EB00547E9A /* LaunchScreen.storyboard in Resources */,
+				488ECC33270418EB00547E9A /* Assets.xcassets in Resources */,
+				488ECC9527043C8D00547E9A /* File.txt in Resources */,
+				488ECC31270418EA00547E9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488ECC3A270418EB00547E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488ECC45270418EB00547E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1814167EFF864D78FF40CD95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests/Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests/Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests/Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A19883A4C0BEFD1F4ABA8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoudaoTranslator_iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		927DB93D9651CF73E302E472 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoudaoTranslator_iOS/Pods-YoudaoTranslator_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoudaoTranslator_iOS/Pods-YoudaoTranslator_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YoudaoTranslator_iOS/Pods-YoudaoTranslator_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0ECB851B164A1536F1D1686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E74BA28B633D150CFF1BE21C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoudaoTranslator_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		488ECC22270418EA00547E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488ECCC327043EA900547E9A /* ConsoleLog.m in Sources */,
+				488ECCBF27043EA900547E9A /* TranslateUI.swift in Sources */,
+				488ECC8027043C6A00547E9A /* Translator.swift in Sources */,
+				488ECCBD27043EA900547E9A /* BaseRequest.m in Sources */,
+				488ECCC127043EA900547E9A /* LanguageSelectorModel.swift in Sources */,
+				488ECC2A270418EA00547E9A /* AppDelegate.swift in Sources */,
+				488ECCC027043EA900547E9A /* LanguageSelector.swift in Sources */,
+				488ECCBC27043EA900547E9A /* PostRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488ECC38270418EB00547E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488ECC41270418EB00547E9A /* YoudaoTranslator_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488ECC43270418EB00547E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488ECC4C270418EB00547E9A /* YoudaoTranslator_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		488ECC3E270418EB00547E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 488ECC25270418EA00547E9A /* YoudaoTranslator_iOS */;
+			targetProxy = 488ECC3D270418EB00547E9A /* PBXContainerItemProxy */;
+		};
+		488ECC49270418EB00547E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 488ECC25270418EA00547E9A /* YoudaoTranslator_iOS */;
+			targetProxy = 488ECC48270418EB00547E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		488ECC2F270418EA00547E9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488ECC30270418EA00547E9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		488ECC34270418EB00547E9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488ECC35270418EB00547E9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		488ECC4E270418EB00547E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		488ECC4F270418EB00547E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		488ECC51270418EB00547E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90614DC99AF759711E44520E /* Pods-YoudaoTranslator_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AG27ZZDJY;
+				INFOPLIST_FILE = YoudaoTranslator_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.translate.test.YoudaoTranslator-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YoudaoTranslator_iOS/YoudaoTranslator_iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		488ECC52270418EB00547E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E1A9FA2D9BF16347AB0340C /* Pods-YoudaoTranslator_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AG27ZZDJY;
+				INFOPLIST_FILE = YoudaoTranslator_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.translate.test.YoudaoTranslator-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YoudaoTranslator_iOS/YoudaoTranslator_iOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		488ECC54270418EB00547E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB41F50E319AF8A61E3CD3C7 /* Pods-YoudaoTranslator_iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AG27ZZDJY;
+				INFOPLIST_FILE = YoudaoTranslator_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.translate.test.YoudaoTranslator-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoudaoTranslator_iOS.app/YoudaoTranslator_iOS";
+			};
+			name = Debug;
+		};
+		488ECC55270418EB00547E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B52CED2F82959D6140495D /* Pods-YoudaoTranslator_iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AG27ZZDJY;
+				INFOPLIST_FILE = YoudaoTranslator_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.translate.test.YoudaoTranslator-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoudaoTranslator_iOS.app/YoudaoTranslator_iOS";
+			};
+			name = Release;
+		};
+		488ECC57270418EB00547E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A4D5FC806F865B6368DAFB /* Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AG27ZZDJY;
+				INFOPLIST_FILE = YoudaoTranslator_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.translate.test.YoudaoTranslator-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YoudaoTranslator_iOS;
+			};
+			name = Debug;
+		};
+		488ECC58270418EB00547E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018A66B1410FF94D01F6EDB3 /* Pods-YoudaoTranslator_iOS-YoudaoTranslator_iOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AG27ZZDJY;
+				INFOPLIST_FILE = YoudaoTranslator_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.translate.test.YoudaoTranslator-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YoudaoTranslator_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		488ECC21270418EA00547E9A /* Build configuration list for PBXProject "YoudaoTranslator_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488ECC4E270418EB00547E9A /* Debug */,
+				488ECC4F270418EB00547E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488ECC50270418EB00547E9A /* Build configuration list for PBXNativeTarget "YoudaoTranslator_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488ECC51270418EB00547E9A /* Debug */,
+				488ECC52270418EB00547E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488ECC53270418EB00547E9A /* Build configuration list for PBXNativeTarget "YoudaoTranslator_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488ECC54270418EB00547E9A /* Debug */,
+				488ECC55270418EB00547E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488ECC56270418EB00547E9A /* Build configuration list for PBXNativeTarget "YoudaoTranslator_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488ECC57270418EB00547E9A /* Debug */,
+				488ECC58270418EB00547E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		488ECC7627043BF800547E9A /* XCRemoteSwiftPackageReference "bottom-sheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weitieda/bottom-sheet";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		488ECC7927043C1B00547E9A /* XCRemoteSwiftPackageReference "PartialSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AndreaMiotto/PartialSheet";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		488ECC7C27043C4A00547E9A /* XCRemoteSwiftPackageReference "TextView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kenmueller/TextView";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		488ECC7727043BF800547E9A /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 488ECC7627043BF800547E9A /* XCRemoteSwiftPackageReference "bottom-sheet" */;
+			productName = BottomSheet;
+		};
+		488ECC7A27043C1B00547E9A /* PartialSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 488ECC7927043C1B00547E9A /* XCRemoteSwiftPackageReference "PartialSheet" */;
+			productName = PartialSheet;
+		};
+		488ECC7D27043C4A00547E9A /* TextView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 488ECC7C27043C4A00547E9A /* XCRemoteSwiftPackageReference "TextView" */;
+			productName = TextView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 488ECC1E270418EA00547E9A /* Project object */;
+}
